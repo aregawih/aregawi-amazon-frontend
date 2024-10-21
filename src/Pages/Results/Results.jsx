@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import classes from "./Result.module.css";
-import LayOut from "../../Component/Layout/LayOut";
+import LayOut from "../../Component/LayOut/LayOut";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import { productUrl } from "../../Api/endPoints";
